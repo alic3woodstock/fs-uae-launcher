@@ -352,7 +352,7 @@ class Widget(QObject):
         self.qwidget.move(position[0], position[1])
 
     def setPositionAndSize(self, position: Point, size: Size) -> None:
-        self.qwidget.setGeometry(position[0], position[1], size[0], size[1])
+        self.qwidget.setGeometry(int(position[0]), int(position[1]), size[0], size[1])
         # return self
 
     def setQWidget(self, qwidget: QWidget) -> None:

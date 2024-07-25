@@ -1,5 +1,3 @@
-A fork of fs-uae-launcher to make it functional at this version. I don't have much time, but I can at least make it work.
-
 # FS-UAE Launcher
 
 This is the README file for FS-UAE Launcher.
